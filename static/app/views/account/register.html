@@ -1,0 +1,37 @@
+<h1>Register</h1>
+<div class="row">
+	<div class="col-md-7 col-md-offset-2">
+		<div class="alert alert-danger text-center" role="alert" ng-show="showError">{{errorDetails}}</div>
+		<form class="form-horizontal" name="registerForm" ng-submit="register()" novalidate>
+			<div class="form-group" ng-class="{ 'has-error': registerForm.name.$invalid && registerForm.$submitted }">
+				<label for="name" class="col-sm-3 control-label">Name</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control" name="name" placeholder="Name" ng-model="data.name" ng-required="true" required>
+				</div>
+			</div>
+			<div class="form-group" ng-class="{ 'has-error': registerForm.email.$invalid && registerForm.$submitted }">
+				<label for="email" class="col-sm-3 control-label">Email</label>
+				<div class="col-sm-9">
+					<input type="email" class="form-control" name="email" placeholder="Email" ng-model="data.email" ng-required="true" required>
+				</div>
+			</div>
+			<div class="form-group" ng-class="{ 'has-error': registerForm.password.$invalid && registerForm.$submitted }">
+				<label for="password" class="col-sm-3 control-label">Password</label>
+				<div class="col-sm-9">
+					<input type="password" class="form-control" name="password" placeholder="Password" ng-minlength="4" ng-model="data.password" ng-required="true" required>
+				</div>
+			</div>
+			<div class="form-group" ng-class="{ 'has-error': registerForm.confirmPassword.$invalid && registerForm.$submitted }">
+				<label for="confirmPassword" class="col-sm-3 control-label">Confirm Password</label>
+				<div class="col-sm-9">
+					<input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password" ng-minlength="4" ng-model="data.passwordConfirm" compare-to="data.password" ng-required="true" required>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-3 col-sm-10">
+					<button type="submit" class="btn btn-default">Register</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
