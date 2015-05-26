@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/service"
+	"github.com/ollietrex/sleepyfish/service"
 	"errors"
 	"net/http"
 	"strconv"

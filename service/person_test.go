@@ -2,7 +2,7 @@
 package service
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/helpers"
+	"github.com/ollietrex/sleepyfish/helpers"
 	"testing"
 )
 

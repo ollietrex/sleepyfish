@@ -1,7 +1,7 @@
 package views
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/models"
+	"github.com/ollietrex/sleepyfish/models"
 	"bytes"
 )
 

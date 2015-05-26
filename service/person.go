@@ -2,7 +2,7 @@
 package service
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/database"
+	"github.com/ollietrex/sleepyfish/database"
 	"bytes"
 	"crypto/rand"
 	"crypto/sha512"

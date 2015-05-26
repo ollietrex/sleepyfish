@@ -2,7 +2,7 @@
 package service
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/database"
+	"github.com/ollietrex/sleepyfish/database"
 )
 
 //The service sleep object to deal with the loading and persistence of sleep

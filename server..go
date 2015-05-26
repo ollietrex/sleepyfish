@@ -2,7 +2,7 @@
 package main
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/controller"
+	"github.com/ollietrex/sleepyfish/controller"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"

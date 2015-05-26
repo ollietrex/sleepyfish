@@ -2,7 +2,7 @@
 package service
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/database"
+	"github.com/ollietrex/sleepyfish/database"
 	"github.com/twinj/uuid"
 	"time"
 )

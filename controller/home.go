@@ -2,8 +2,8 @@
 package controller
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/models"
-	"bitbucket.org/ollietrex/sleepyfish/views"
+	"github.com/ollietrex/sleepyfish/models"
+	"github.com/ollietrex/sleepyfish/views"
 	"net/http"
 )
 

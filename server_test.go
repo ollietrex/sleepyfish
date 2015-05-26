@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/controller"
-	"bitbucket.org/ollietrex/sleepyfish/helpers"
+	"github.com/ollietrex/sleepyfish/controller"
+	"github.com/ollietrex/sleepyfish/helpers"
 	"encoding/json"
 	"errors"
 	"fmt"

@@ -2,7 +2,7 @@
 package database
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/helpers"
+	"github.com/ollietrex/sleepyfish/helpers"
 	"testing"
 )
 

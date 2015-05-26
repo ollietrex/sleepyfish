@@ -2,7 +2,7 @@
 package controller
 
 import (
-	"bitbucket.org/ollietrex/sleepyfish/service"
+	"github.com/ollietrex/sleepyfish/service"
 	"net/http"
 )
 
